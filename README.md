@@ -1,40 +1,41 @@
-# Portfolio Starter Kit
+👋 Welcome to My Portfolio Blog
+Hi, I’m Zijian He — a CS master’s student and aspiring software engineer.
 
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
+This is my personal blog built with Next.js and Nextra. It lets me focus on writing in Markdown while enjoying a clean, fast, and customizable layout.
 
-- Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
-- A beautiful theme included out of the box
-- Easily categorize posts with tags
-- Fast, optimized web font loading
+✨ Features
+📝 Write posts with Markdown / MDX
 
-https://demo.vercel.blog
+🏷️ Organize content with tags
 
-## Configuration
+📰 Auto-generated RSS feed
 
-1. Update your name in `theme.config.js` or change the footer.
-1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
-1. Update the meta tags in `pages/_document.tsx`.
-1. Update the posts inside `pages/posts/*.md` with your own content.
+🎨 Minimal and beautiful default theme
 
-## Deploy your own
+⚡ Fast and optimized performance (thanks to Next.js & Vercel)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog&project-name=portfolio&repository-name=portfolio)
+🔧 How I Customized It
+Edited site info in theme.config.js
 
-## How to use
+Replaced demo posts with my own content in pages/posts/
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Tweaked meta info in pages/_document.tsx
 
-```bash
-npx create-next-app --example blog my-blog
-```
+Updated the RSS script in scripts/gen-rss.js
 
-```bash
-yarn create next-app --example blog my-blog
-```
+🚀 Deploy Your Own (in 1 minute)
+You can build your own blog like this one, for free:
 
-```bash
-pnpm create next-app --example blog my-blog
-```
+🛠️ Quick Start
+Use this command to create your own blog:
+npx create-next-app -e https://github.com/vercel/next.js/tree/canary/examples/blog my-blog
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Then:
+cd my-blog
+npm install
+npm run dev
+Visit localhost:3000 to see it live.
+
+📬 Contact
+You can find me on GitHub or LinkedIn.
+Thanks for visiting my blog!

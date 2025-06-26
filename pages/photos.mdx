@@ -1,31 +1,88 @@
 ---
 type: page
 title: Photos
-date: 2021-03-18
+date: 2025-02-02
 ---
-
-# Photos
-
-Here's some of my photography.
 
 import Image from "next/image";
 
-<Image
-  src="/images/photo2.jpg"
-  alt="Photo"
-  width={1125}
-  height={750}
-  priority
-  className="next-image"
-/>
-[Unsplash ↗ ](https://unsplash.com/photos/WeYamle9fDM)
+# 📷 Photos
 
-<Image
-  src="/images/photo.jpg"
-  alt="Photo"
-  width={1125}
-  height={750}
-  priority
-  className="next-image"
-/>
-[Unsplash ↗ ](https://unsplash.com/photos/ndN00KmbJ1c)
+Here's some of my daily life photography.
+
+<div
+  style={{
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+    gap: '24px',
+    marginTop: '32px'
+  }}
+>
+  <div style={{
+    height: '250px',
+    position: 'relative',
+    borderRadius: '12px',
+    overflow: 'hidden',
+    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+  }}>
+    <Image
+      src="/images/photo.jpg"
+      alt="Photo"
+      fill
+      style={{
+        objectFit: 'cover'
+      }}
+    />
+  </div>
+
+  <div style={{
+    height: '250px',
+    position: 'relative',
+    borderRadius: '12px',
+    overflow: 'hidden',
+    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+  }}>
+    <Image
+      src="/images/photo1.jpg"
+      alt="Photo1"
+      fill
+      style={{
+        objectFit: 'cover'
+      }}
+    />
+  </div>
+
+  <div style={{
+    height: '250px',
+    position: 'relative',
+    borderRadius: '12px',
+    overflow: 'hidden',
+    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+  }}>
+    <Image
+      src="/images/photo2.jpg"
+      alt="Photo2"
+      fill
+      style={{
+        objectFit: 'cover'
+      }}
+    />
+  </div>
+
+   <div style={{
+    height: '250px',
+    position: 'relative',
+    borderRadius: '12px',
+    overflow: 'hidden',
+    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)'
+  }}>
+    <Image
+      src="/images/photo3.jpg"
+      alt="Photo3"
+      fill
+      style={{
+        objectFit: 'cover'
+      }}
+    />
+  </div>
+</div>
